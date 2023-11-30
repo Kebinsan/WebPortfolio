@@ -12,10 +12,10 @@ export default function App() {
       <Header />
       <Navigation />
       <main>
-        <div class="container left-col">
+        <div class="left-col">
           <Profile />
         </div>
-        <div class="container right-col">
+        <div class="right-col">
           <Projects />
           <Spotify />
         </div>

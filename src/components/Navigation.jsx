@@ -1,3 +1,3 @@
 export default function Navigation() {
-  return <nav class="container nav">nav</nav>;
+  return <nav class="navigation container">nav</nav>;
 }

@@ -1,11 +1,6 @@
 * {
   margin: 0;
 }
-
-.container {
-  padding: 10px;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -13,30 +8,27 @@
   padding-right: 10%;
   background-color: blue;
 }
-
-.nav {
+.navigation {
   background-color: purple;
 }
-
-main {
+main,
+.profile {
   display: flex;
   justify-content: row;
 }
-
 .left-col {
   flex-grow: 3;
   background-color: grey;
 }
-
 .right-col {
-  flex-grow: 4;
+  flex-grow: 5;
   background-color: black;
 }
-
 article {
   background-color: red;
+  padding: 10px;
+  margin: 10px;
 }
-
 footer {
   background-color: yellow;
 }

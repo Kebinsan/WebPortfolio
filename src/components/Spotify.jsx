@@ -1,3 +1,3 @@
 export default function Spotify() {
-  return <article class="container spotify">Spotify</article>;
+  return <article class="spotify container">Spotify</article>;
 }
