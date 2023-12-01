@@ -1,24 +1,20 @@
 import { useState } from "react";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
 import Spotify from "./components/Spotify";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <>
       <Header />
-      <Navigation />
-      <main>
-        <div class="left-col">
-          <Profile />
-        </div>
-        <div class="right-col">
-          <Projects />
-          <Spotify />
-        </div>
+      <main className="container main-content">
+        <Profile />
+        <About />
+        <Projects />
+        <Spotify />
       </main>
       <Footer />
     </>

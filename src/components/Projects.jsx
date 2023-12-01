@@ -1,3 +1,3 @@
 export default function Projects() {
-  return <article class="project container">projects</article>;
+  return <section class="project">projects</section>;
 }
